@@ -1,0 +1,348 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    line-height: 1;
+    color: #333;
+}
+
+.header {
+    border-bottom: 1px solid #888888;
+}
+
+.header .inner {
+    width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap .header .inner .logo a img:first-child {
+    width: 71px;
+    height: 26px;
+    margin-top: 48px;
+    margin-left: 38px;
+}
+
+.wrap .header .inner .logo a img h3 {
+    margin-right: 35px;
+}
+
+
+.wrap .header .inner .logo a h2 {
+    font-size: 19px;
+    font-family: 'yg-jalnan';
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 12%;
+    top: 6.2%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap .header .inner .nav01 ul {
+    font-family: 'Pretendard-Regular';
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: 100;
+    transform: translate(-50%, 0);
+}
+
+.wrap .header .inner .nav01 ul li {
+    margin-right: 103px;
+}
+
+.wrap .header .inner .icon li a img:first-child {
+    width: 12px;
+    height: 14px;
+    margin-right: 120px;
+
+}
+
+
+.wrap .header .inner .icon li a h3 {
+    font-size: 16px;
+    font-family: 'Pretendard-Regular';
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 5%;
+    top: 5.3%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap .header .inner .icon li a img:last-child {
+    width: 29px;
+    height: 29px;
+    margin-right: 38px;
+}
+
+.wrap .main .main_text p {
+    font-size: 70px;
+    font-family: 'yg-jalnan';
+    margin-top: 115px;
+    margin-left: 326px;
+}
+
+.wrap .main .main_text div img {
+    width: 258px;
+    height: 108px;
+    position: absolute;
+    top: 18%;
+    left: 42%;
+}
+
+.wrap .main .main_text ul a li {
+    font-size: 24px;
+    font-family: 'yg-jalnan';
+    position: absolute;
+    top: 23%;
+    right: 20%;
+}
+
+.wrap .main .main_text ul a img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 22%;
+    right: 17%;
+}
+
+
+.slide05 {
+    max-width: 1280px;
+    width: calc(100% - 30px);
+    margin: 100px auto;
+}
+
+.swiper-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide05 .mySwiper05 .swiper-wrapper .swiper-slider figure {
+    width: 836px;
+    height: 395px;
+
+}
+
+
+.slide05 .mySwiper05 .swiper-wrapper .swiper-slider figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+
+}
+
+.title .program {
+    margin-left: 327px;
+}
+
+.title .program strong {
+    font-size: 45px;
+    font-family: 'yg-jalnan';
+
+}
+
+.title .program h4 {
+    font-size: 20px;
+    font-family: 'Pretendard-Regular';
+    font-weight: normal;
+    margin-top: 13px;
+}
+
+.title .program figure a img {
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    bottom: 4%;
+    right: 52%;
+}
+
+.title .program div img {
+    width: 446px;
+    height: 630px;
+    border-radius: 20px;
+    position: absolute;
+    right: 17%;
+    top: 91%;
+}
+
+.title .program .box {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title .program .box a img {
+    width: 80px;
+    height: 80px;
+}
+
+.title .program .box strong {
+    font-size: 26px;
+    font-family: 'Pretendard-Regular';
+    font-weight: 900;
+}
+
+.title .program .box span {
+    font-size: 16px;
+    font-family: 'Pretendard-Regular';
+    
+}
+
+.title .program .box h6 {
+    font-size: 16px;
+    font-family: 'Pretendard-Regular';
+}
+.menu .title02 {
+   margin-top: 500px;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+
+}
+.menu .title02 strong {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'yg-jalnan';
+}
+.menu .title02 h7 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Pretendard-Regular';
+    position: relative;
+    top: 0;
+    left: -10%;
+    transform: translateY(150%);
+}
+
+.cook .cook_image img:first-child {
+    width: 620px;
+    height: 620px;
+    position: absolute;
+    left: 17%;
+    top: 200%;
+}
+.cook .cook_image img:nth-child(2) {
+    width: 622px;
+    height: 130px;
+    position: absolute;
+    left: 17%;
+   top: 255%;
+}
+.cook .cook_image img:nth-child(3) {
+    width: 206px;
+    height: 60px;
+    position: relative;
+    top: 0;
+    left: 20%;
+    transform: translateY(200%)
+}
+.cook .cook_image img:nth-child(4) {
+    width: 483px;
+    height: 554px;
+    position: relative;
+    top: 0;
+    left:14%;
+    transform: translateY(67%)
+}
+.cook p {
+    font-size: 22px;
+    text-align: center;
+    font-family: 'yg-jalnan';
+    background-color: #BD4F00;
+    color: #fff;
+    width: 128px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 40px;
+    position: relative;
+    top: 0;
+    left: 20%;
+    transform: translateY(-500%);
+}
+.cook h8 {
+    font-size: 45px;
+    color: #fff;
+    font-family: 'yg-jalnan';
+    position: relative;
+    top: 0;
+    left: 20%;
+    transform: translateY(-100%);
+}
+.cook .recipe {
+    width: 296px;
+    height: 296px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+   
+}
+.cook .recipe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 400%;
+    transform: translateY(-50%);
+    
+}
+.salon{
+    margin-top: 200px;
+}
+.salon .text03 {
+    display: flex;
+    justify-content: space-between;
+}
+.salon .text03 strong {
+    font-size: 45px;
+    font-family: 'yg-jalnan';
+    margin-left: 330px;
+}
+.salon .text03 img {
+    width: 20px;
+    height: 20px;
+}
+.salon .text03 a {
+    font-size: 22px;
+    font-family: 'Pretendard-Regular';
+    
+}
